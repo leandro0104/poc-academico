@@ -65,7 +65,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>rut</finalName>
+		<finalName>root</finalName>
 	</build>
 
 </project>
