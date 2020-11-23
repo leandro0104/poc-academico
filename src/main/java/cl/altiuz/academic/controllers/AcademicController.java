@@ -18,7 +18,7 @@ public class AcademicController {
 	
 	@Autowired
 	private IAcademicService academicService;
-	@GetMapping("/listAcademic")
+	@GetMapping("/profile")
 	public List<Academic> listAcademic(@RequestHeader String rut){
 		return academicService.findbyRut(rut);
 	}
