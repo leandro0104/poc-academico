@@ -13,7 +13,7 @@ import cl.altiuz.academic.entity.Academic;
 import cl.altiuz.academic.service.IAcademicService;
 
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = RequestMethod.GET)
 public class AcademicController {
 	
 	@Autowired
